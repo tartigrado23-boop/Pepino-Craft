@@ -1,0 +1,52 @@
+{
+  "mod_priorities": [
+    "minecraft",
+    "kubejs",
+    "create",
+    "minersdelight",
+    "culturaldelights",
+    "corn_delights",
+    "oceansdelight"
+  ],
+  
+  "priority_overrides": {
+    "c:foods/raw_tentacles": "culturaldelights",
+    "c:foods/cooked_tentacles": "culturaldelights"
+  },
+
+
+  "stone_variants": [
+    "stone",
+    "andesite",
+    "deepslate",
+    "diorite",
+    "granite",
+    "netherrack",
+    "end_stone"
+  ],
+  "tags": [
+    "c:crops/corn",
+    "c:seeds/corn",
+    "c:foods/popcorn",
+    "c:foods/raw_tortilla",
+    "c:foods/tortilla",
+    "c:foods/t_chips",
+    "c:squid_drop",
+    "c:squid_drop/glow",
+    "c:squid_drop/cooked",
+    "c:doughs/wheat",
+    "c:foods/raw_tentacles",
+    "c:foods/cooked_tentacles",
+    "c:foods/tentacles_on_a_stick"
+
+  ],
+  "ignored_tags": [],
+  "ignored_items": [],
+  "ignored_recipe_types": [
+    "cucumber:shaped_tag"
+  ],
+  "ignored_recipe_ids": [],
+  "recipe_viewer_hiding": true,
+  "loot_unification": true,
+  "ignored_loot_tables": []
+}

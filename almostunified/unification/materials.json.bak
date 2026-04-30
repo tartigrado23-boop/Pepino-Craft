@@ -1,0 +1,42 @@
+{
+  "modPriorities": [
+    "culturaldelights",
+    "corn_delight",
+    "minecraft",
+    "kubejs",
+    "crafttweaker",
+    "create"
+  ],
+
+  "tags": [
+    "forge:crops/corn",
+    "forge:seeds/corn",
+    "forge:foods/popcorn",
+    "forge:storage_blocks/corn"
+  ],
+
+  "customTags": {
+    "forge:crops/corn": [
+      "culturaldelights:corn_cob",
+      "corn_delight:corn"
+    ],
+    "forge:seeds/corn": [
+      "culturaldelights:corn_kernels",
+      "corn_delight:corn_seeds"
+    ],
+    "forge:foods/popcorn": [
+      "culturaldelights:popcorn",
+      "corn_delight:popcorn"
+    ],
+    "forge:storage_blocks/corn": [
+      "culturaldelights:corn_cob_crate",
+      "corn_delight:corn_crate"
+    ],
+
+    "c:foods/vegetables": [
+      "culturaldelights:corn_cob"
+    ]
+  },
+
+  "hideJeiRei": true
+}

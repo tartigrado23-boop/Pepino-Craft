@@ -1,0 +1,147 @@
+{
+  "custom_tags": {
+    "c:crops/corn":[
+      "corn_delight:corn",
+      "culturaldelights:corn_cob"
+      ],
+    
+     "c:seeds/corn":[
+      "corn_delight:corn_seeds",
+      "culturaldelights:corn_kernels"
+      ],
+
+    "c:foods/raw_tortilla":[
+      "culturaldelights:corn_dough",
+      "corn_delight:tortilla_raw"
+      ],
+
+    "c:foods/t_chips":[
+      "culturaldelights:tortilla_chips",
+      "corn_delight:tortilla_chip"
+    ],
+
+    "c:squid_drop":[
+      "culturaldelights:squid",
+      "minersdelight:squid"
+    ],
+
+    "c:squid_drop/glow":[
+      "culturaldelights:glow_squid",
+      "minersdelight:glow_squid"
+    ],
+
+    "c:squid_drop/cooked":[
+      "culturaldelights:cooked_squid",
+      "minersdelight:baked_squid"
+    ],
+
+    "c:doughs/wheat":[
+      "farmersdelight:wheat_dough"
+    ],
+
+    "c:foods/raw_tentacles":[
+      "culturaldelights:raw_calamari",
+      "minersdelight:tentacles",
+      "oceansdelight:tentacles"
+    ],
+
+    "c:foods/cooked_tentacles":[
+      "culturaldelights:cooked_calamari",
+      "minersdelight:baked_tentacles"
+    ],
+
+   "minecraft:fishes":[
+      "culturaldelights:cooked_calamari",
+      "culturaldelights:raw_calamari"
+    ],
+
+    "crittersandcompanions:otter_food":[
+      "culturaldelights:raw_calamari",
+      "culturaldelights:cooked_calamari"
+    ],
+
+    "c:foods/tentacles_on_a_stick":[
+      "oceansdelight:baked_tentacle_on_a_stick",
+      "minersdelight:tentacles_on_a_stick"
+    ],
+
+    "curios:elytra":[
+      "minecraft:elytra"        
+    ]
+
+  },
+  "tag_substitutions": {},
+  "item_tag_inheritance_mode": "ALLOW",
+  "item_tag_inheritance":{
+
+    "c:foods":[
+      "c:foods/raw_tentacles",
+      "c:crops/corn",
+      "c:foods/cooked_tentacles"
+    ],
+
+    "c:foods/raw_fish":[
+      "c:foods/raw_tentacles"
+    ],
+
+ 
+
+    "c:crops":[
+      "c:crops/corn" 
+    ],
+
+    "c:foods/vegetables":[
+      "c:crops/corn" 
+    ],
+
+    "minecraft:pig_food":[
+      "c:crops/corn"
+    ],
+
+    "minecraft:cow_food":[
+      "c:crops/corn"
+    ],
+
+    "minecraft:horse_food":[
+      "c:crops/corn"
+    ],
+
+    "minecraft:sheep_food":[
+      "c:crops/corn"
+    ],
+
+    "animal_foods":[
+      "c:crops/corn",
+      "c:foods/raw_tentacles",
+      "c:foods/cooked_tentacles"
+    ],
+
+    "crops/grain":[
+      "c:crops/corn"
+    ],
+
+    "minecraft:parrot_food":[
+      "c:crops/corn"
+    ],
+    
+    "c:foods/raw_squid":[
+      "c:foods/raw_tentacles"    
+    ],
+
+    "c:foods/safe_raw_fish":[
+      "c:foods/raw_tentacles"  
+    ],
+
+    "farmersdelight:cabbage_roll_ingredients":[
+      "c:foods/raw_tentacles"
+    ],
+
+    "minecraft:cat_food":[
+      "c:foods/raw_tentacles"
+    ]
+
+  },
+  "block_tag_inheritance_mode": "ALLOW",
+  "block_tag_inheritance": {},
+  "emi_strict_hiding": true
+}

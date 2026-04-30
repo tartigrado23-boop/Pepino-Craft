@@ -1,0 +1,37 @@
+{
+  "custom_tags": {
+    "c:crops/corn":[
+      "corn_delight:corn",
+      "culturaldelights:corn_cob"
+      ],
+    
+     "c:seeds/corn":[
+      "corn_delight:corn_seeds",
+      "culturaldelights:corn_kernels"
+      ],
+
+    "c:foods/raw_tortilla":[
+      "culturaldelights:corn_dough",
+      "corn_delight:tortilla_raw"
+      ],
+
+    "c:foods/t_chips":[
+      "culturaldelights:tortilla_chips",
+      "corn_delight:tortilla_chip"
+    ]
+
+  },
+  "tag_substitutions": {},
+  "item_tag_inheritance_mode": "ALLOW",
+  "item_tag_inheritance":{
+    "c:crops":[
+      "c:crops/corn" 
+    ],
+    "C:foods/vegetable": [
+      "c:crops/corn"
+    ]
+  },
+  "block_tag_inheritance_mode": "ALLOW",
+  "block_tag_inheritance": {},
+  "emi_strict_hiding": true
+}
