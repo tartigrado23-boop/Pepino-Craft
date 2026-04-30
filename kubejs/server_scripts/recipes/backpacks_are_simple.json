@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:copper_backpack"
+    }
+  ],
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:copper_block"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "R": {
+      "item": "farmersdelight:rope"
+    },
+    "V": {
+      "item": "farmersdelight:canvas"
+    }
+  },
+
+  "pattern": [
+    "R R",
+    "VBV",
+    "CAC"
+  ],
+  
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:copper_backpack"
+  }
+}
